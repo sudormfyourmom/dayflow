@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">DayFlow</title>
+  <desc id="description">DayFlow logo with a flowing D symbol in violet and teal.</desc>
+  <defs>
+    <linearGradient id="flow" x1="52" y1="58" x2="276" y2="266" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B6CFF"/>
+      <stop offset="1" stop-color="#55DFC5"/>
+    </linearGradient>
+    <linearGradient id="wordmark" x1="360" y1="92" x2="786" y2="242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F7FB"/>
+      <stop offset="1" stop-color="#C8C8D5"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(16 16)">
+    <rect width="288" height="288" rx="76" fill="#11131A"/>
+    <rect x="1" y="1" width="286" height="286" rx="75" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="2"/>
+    <path d="M91 226V94H145C190 94 218 121 218 160C218 199 190 226 145 226H119" stroke="url(#flow)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M121 160H169C190 160 200 177 217 177C234 177 245 166 253 151" stroke="url(#flow)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M235 151L255 147L252 168" stroke="#55DFC5" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="120" cy="160" r="9" fill="#F7F7FB"/>
+  </g>
+
+  <text x="356" y="207" fill="url(#wordmark)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="126" font-weight="700" letter-spacing="-5">DayFlow</text>
+  <circle cx="852" cy="198" r="8" fill="#55DFC5"/>
+</svg>

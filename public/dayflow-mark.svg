@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">DayFlow</title>
+  <desc id="description">DayFlow symbol: a flowing D in violet and teal.</desc>
+  <defs>
+    <linearGradient id="flow" x1="52" y1="42" x2="276" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B6CFF"/>
+      <stop offset="1" stop-color="#55DFC5"/>
+    </linearGradient>
+  </defs>
+  <rect width="288" height="288" rx="76" fill="#11131A"/>
+  <rect x="1" y="1" width="286" height="286" rx="75" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="2"/>
+  <path d="M91 226V94H145C190 94 218 121 218 160C218 199 190 226 145 226H119" stroke="url(#flow)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M121 160H169C190 160 200 177 217 177C234 177 245 166 253 151" stroke="url(#flow)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M235 151L255 147L252 168" stroke="#55DFC5" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="120" cy="160" r="9" fill="#F7F7FB"/>
+</svg>

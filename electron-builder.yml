@@ -1,0 +1,23 @@
+appId: com.dayflow.app
+productName: DayFlow
+artifactName: ${productName}-Setup-${version}.${ext}
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - package.json
+win:
+  sign: null
+  signAndEditExecutable: false
+  target:
+    - target: dir
+    - target: nsis
+  icon: public/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: DayFlow

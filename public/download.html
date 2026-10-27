@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#11130f" />
+    <meta name="description" content="Pobierz DayFlow — prywatny planer dnia, który działa również offline." />
+    <link rel="icon" type="image/svg+xml" href="./dayflow-mark.svg" />
+    <title>Pobierz DayFlow</title>
+    <style>
+      :root{color-scheme:dark;--bg:#11130f;--panel:#1c2018;--panel-2:#20251c;--line:#353b2e;--cream:#f1ead5;--muted:#aaa991;--green:#20a77c;--green-dark:#09251c}
+      *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font:15px/1.55 Inter,"Segoe UI",system-ui,sans-serif}
+      .topbar{height:96px;border-bottom:1px solid var(--line)}.topbar-inner{width:min(100% - 48px,990px);height:100%;margin:auto;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:13px;color:var(--cream);text-decoration:none}.brand img{width:44px;height:44px;padding:9px;border-radius:9px;background:var(--green)}.brand-name{display:block;font-size:1.25rem;font-weight:850;line-height:1.05;letter-spacing:-.04em}.brand-caption{display:block;margin-top:4px;color:var(--muted);font-size:.78rem}.top-download{display:inline-flex;align-items:center;gap:9px;padding:12px 17px;border-radius:9px;background:var(--green);color:#071910;text-decoration:none;font-size:.84rem;font-weight:750}.top-download:hover,.button:hover{background:#2abb8d}
+      main{width:min(100% - 48px,990px);margin:0 auto}.hero{padding:38px 0 38px}.hero h1{max-width:800px;margin:0;font-size:clamp(3.4rem,8.3vw,5.55rem);line-height:1.06;letter-spacing:-.075em;font-weight:850}.hero h1 span{color:var(--green)}.hero p{max-width:630px;margin:20px 0 0;color:var(--muted);font-size:.98rem}
+      .tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line)}.tab{padding:12px 16px;color:var(--muted);font-size:.83rem;font-weight:650;text-decoration:none;white-space:nowrap}.tab.active{border:1px solid var(--line);border-bottom:1px solid var(--panel);border-radius:9px 9px 0 0;background:var(--panel);color:var(--cream);margin-bottom:-1px}
+      .download-panel{padding:32px;border:1px solid var(--line);border-top:0;border-radius:0 0 13px 13px;background:#191d16}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.card{min-height:222px;padding:21px;border:1px solid #373c30;border-radius:12px;background:var(--panel-2);display:flex;flex-direction:column}.card.primary{border-color:var(--green);background:#172a20}.card-icon{width:21px;height:21px;margin-bottom:18px;color:var(--green)}.card h2{margin:0;font-size:1.05rem;letter-spacing:-.025em}.file{margin:4px 0 10px;color:var(--muted);font: .73rem/1.5 ui-monospace,Consolas,monospace}.card p{margin:0 0 15px;color:var(--muted);font-size:.81rem}.button{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:9px;min-height:43px;padding:9px 13px;border-radius:8px;background:var(--green);color:#06170f;text-decoration:none;font-size:.82rem;font-weight:750}.button svg{width:16px;height:16px}.note{margin:22px 0 0;color:var(--muted);font-size:.79rem}.note strong{color:var(--cream)}
+      .below{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}.info{padding:20px;border:1px solid var(--line);border-radius:11px;background:#171a14}.info h2{margin:0 0 7px;font-size:.95rem}.info p{margin:0;color:var(--muted);font-size:.82rem}.info span{color:var(--green)}footer{display:flex;justify-content:space-between;gap:16px;padding:27px 0 34px;color:#858672;font-size:.78rem}footer a{color:var(--cream);text-decoration:none}footer a:hover{color:var(--green)}
+      @media(max-width:700px){.topbar{height:78px}.topbar-inner,main{width:min(100% - 32px,990px)}.brand-caption{font-size:.68rem}.top-download{padding:10px 12px;font-size:.76rem}.hero{padding:34px 0 30px}.hero h1{font-size:clamp(3rem,12vw,4.3rem)}.download-panel{padding:18px}.cards{grid-template-columns:1fr}.card{min-height:195px}.below{grid-template-columns:1fr}footer{flex-direction:column}}
+      @media(max-width:390px){.brand{gap:8px}.brand img{width:38px;height:38px}.brand-caption{max-width:160px}.top-download{gap:6px;padding:9px;font-size:.7rem}}
+    </style>
+  </head>
+  <body>
+    <header class="topbar"><div class="topbar-inner">
+      <a class="brand" href="./index.html"><img src="./dayflow-mark.svg" alt="" /><span><span class="brand-name">DayFlow</span><span class="brand-caption">Plan dnia · tryb offline · lokalne konto</span></span></a>
+      <a class="top-download" href="./downloads/DayFlow-Setup-1.0.0.exe" download><svg viewBox="0 0 24 24" width="17" height="17" fill="none" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v3h14v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pobierz DayFlow</a>
+    </div></header>
+    <main>
+      <section class="hero"><h1>Twój dzień.<br /><span>Twój rytm.</span></h1><p>Wszystkie zadania i plany w jednym miejscu. DayFlow działa offline, a Twoje dane mogą pozostać na Twoim urządzeniu.</p></section>
+      <nav class="tabs" aria-label="Informacje o DayFlow"><a class="tab active" href="#pobierz">Pobierz</a><a class="tab" href="#jak-dziala">Jak to działa</a><a class="tab" href="#offline">Tryb offline</a><a class="tab" href="#prywatnosc">Prywatność</a></nav>
+      <section class="download-panel" id="pobierz">
+        <div class="cards">
+          <article class="card primary"><svg class="card-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5 11 4v7H4v-5.5Zm9-1.9 7-1.1V11h-7V3.6ZM4 13h7v7l-7-1.4V13Zm9 0h7v8.5l-7-1.1V13Z" fill="currentColor"/></svg><h2>DayFlow na Windows</h2><div class="file">DayFlow-Setup-1.0.0.exe · 64-bit</div><p>Instalator aplikacji desktopowej. Po instalacji możesz korzystać z lokalnego konta i planować bez internetu.</p><a class="button" href="./downloads/DayFlow-Setup-1.0.0.exe" download><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5M5 17v3h14v-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Pobierz instalator <span aria-hidden="true">→</span></a></article>
+          <article class="card" id="jak-dziala"><svg class="card-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><h2>Prosty plan dnia</h2><div class="file">Zadania · cele · skupienie</div><p>Ułóż zadania, śledź postępy i trzymaj najważniejsze sprawy pod ręką.</p></article>
+          <article class="card" id="offline"><svg class="card-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 9a14 14 0 0 1 18 0M6.5 12.5a9 9 0 0 1 11 0M10 16a3.5 3.5 0 0 1 4 0M12 20h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m3 3 18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><h2>Działa offline</h2><div class="file">Bez stałego połączenia</div><p>Korzystaj z DayFlow także bez internetu. Konfiguracja Supabase jest potrzebna tylko przy integracji z własnym projektem.</p></article>
+        </div>
+        <p class="note">Po pobraniu uruchom instalator <strong>.exe</strong>. Dane lokalnego konta są przechowywane na tym komputerze.</p>
+      </section>
+      <section class="below" id="prywatnosc"><article class="info"><h2><span>01 /</span> Lokalnie i prywatnie</h2><p>Możesz używać lokalnego konta bez konfigurowania Supabase. Dane pozostają na urządzeniu.</p></article><article class="info"><h2><span>02 /</span> Gotowy, żeby zacząć</h2><p>Pobierz instalator, zainstaluj aplikację i od razu zaplanuj swój dzień.</p></article></section>
+      <footer><span>DayFlow · Twój dzień, Twój rytm</span><a href="./index.html">Otwórz aplikację</a></footer>
+    </main>
+  </body>
+</html>
